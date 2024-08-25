@@ -10,7 +10,7 @@ class ProductListItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      margin: EdgeInsets.symmetric(vertical: 8),
+      margin: EdgeInsets.symmetric(vertical: 10),
       child: InkWell(
         onTap: onTap,
         child: Padding(
@@ -21,7 +21,7 @@ class ProductListItem extends StatelessWidget {
                 children: [
                   Image.network(
                     product.thumbnail,
-                    width: 120,
+                    width: 140,
                     height: 120,
                     fit: BoxFit.cover,
                   ),
@@ -47,7 +47,7 @@ class ProductListItem extends StatelessWidget {
                     ),
                 ],
               ),
-              SizedBox(width: 10),
+              SizedBox(width: 40),
               Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.end,
@@ -62,7 +62,7 @@ class ProductListItem extends StatelessWidget {
                                   ? Icons.star
                                   : Icons.star_border,
                               color: Colors.orange,
-                              size: 16,
+                              size: 18,
                             );
                           }),
                         ),

@@ -44,7 +44,7 @@ class _ProductListScreenState extends State<ProductListScreen> {
             Text(
               'Super Summer Sale',
               style: TextStyle(
-                fontSize: 14,
+                fontSize: 12,
                 color: Colors.grey,
                 fontWeight: FontWeight.bold,
               ),

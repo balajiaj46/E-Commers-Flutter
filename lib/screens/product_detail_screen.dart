@@ -72,7 +72,7 @@ class ProductDetailScreen extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            product.brand,
+                            product.title,
                             style: TextStyle(
                               fontSize: 20,
                               fontWeight: FontWeight.bold,
@@ -80,7 +80,7 @@ class ProductDetailScreen extends StatelessWidget {
                           ),
                           SizedBox(height: 4),
                           Text(
-                            product.title,
+                            product.brand,
                             style: TextStyle(
                               fontSize: 16,
                               color: Colors.grey,
