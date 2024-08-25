@@ -1,0 +1,26 @@
+name: ecommerce_app
+description: A basic e-commerce app UI using Flutter.
+
+# Add your Flutter version here.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0" # Update this according to your Flutter version
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+
+  # Add other dependencies as needed
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The Flutter tools require this to support code analysis
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
