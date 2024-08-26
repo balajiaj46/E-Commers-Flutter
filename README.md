@@ -23,7 +23,7 @@ This Flutter project serves as a foundational structure for building an e-commer
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/balajiaj46/E-Commers-Flutter.git
+   git clone https://github.com/balajiaj46/ecommerce_app.git
    ```
 2. Navigate to the project directory:
    ```bash
